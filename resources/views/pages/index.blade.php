@@ -1,5 +1,8 @@
 @extends('layout.layout')
 
 @section('content')
-    Hello
+@endsection
+
+@section('script')
+
 @endsection
