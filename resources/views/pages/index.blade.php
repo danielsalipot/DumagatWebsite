@@ -1,6 +1,7 @@
 @extends('layout.layout')
 
 @section('content')
+<<<<<<< HEAD
 @include('inc.nav')
 
 <div class="w-100 d-flex justify-content-end head">
@@ -26,5 +27,10 @@
     </video>
 </div>
 
+=======
+@endsection
+
+@section('script')
+>>>>>>> 31f6db2edd606733de02ca873e68549158257338
 
 @endsection
