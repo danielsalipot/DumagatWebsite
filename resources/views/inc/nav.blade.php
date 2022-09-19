@@ -10,10 +10,10 @@
         <div class="d-flex w-25 justify-content-start mt-3 navcontent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="text-light text-decoration-none pe-5" href="#">Item</a>
+              <a class="text-light text-decoration-none pe-5" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="text-light text-decoration-none" href="#">Item</a>
+              <a class="text-light text-decoration-none" href="/about">About</a>
             </li>
           </ul>
         </div>
@@ -25,7 +25,7 @@
         <div class="d-flex justify-content-end w-25 navcontent mt-3 ">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="text-light text-decoration-none pe-5" href="#">Item</a>
+              <a class="text-light text-decoration-none pe-5" href="/gallery">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="text-light text-decoration-none" href="#">Item</a>

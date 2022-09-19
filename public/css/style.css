@@ -51,3 +51,67 @@ body{
     color: #CEAB93;
     font-size: 30px;
 }
+
+
+
+.logo img{
+	width: 600px;
+	height: auto;
+	float: left;
+	margin-left: 25px;
+}
+
+
+
+
+
+.container{
+	position: relative;
+	width: 325px;
+	height: 300px;
+	display: inline-block;
+	margin: 0 30px;
+    margin-top: 80px;
+	text-align: center;
+}
+.image{
+	display: block;
+	width: 300px;
+	height: 300px;
+	border: 15px solid #FFFBE9;	
+}
+.overlay{
+	position: absolute;
+	transition: all .5s ease;
+	opacity: 0;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	
+}
+.text{
+	color: white;
+	
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size: 15px;
+
+
+}
+
+.overlayLeft{
+	height: 100%;
+	width: 0;
+	top:0;
+	left: 0;
+	
+}
+
+.container:hover .overlayLeft{
+	width: 100%;
+}
+.container:hover .overlay{
+	opacity: 1;
+}
+
+
