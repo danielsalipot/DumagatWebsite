@@ -1,6 +1,7 @@
 @extends('layout.layout')
 
 @section('content')
+@include('inc.nav')
     <div class="card shadow-lg mx-auto my-5 w-75">
         <div class="w-100 rounded-top" style="
             height:300px;

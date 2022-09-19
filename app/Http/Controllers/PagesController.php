@@ -15,4 +15,8 @@ class PagesController extends Controller
     {
         return view('pages.about');
     }
+    public function gallery()
+    {
+        return view('pages.gallery');
+    }
 }
