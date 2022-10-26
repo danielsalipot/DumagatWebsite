@@ -10,7 +10,7 @@
         <div class="d-flex w-25 justify-content-start mt-3 navcontent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="text-light text-decoration-none pe-5" href="/">Home</a>
+              <a class="text-light text-decoration-none pe-5" href="/home">Home</a>
             </li>
             <li class="nav-item">
               <a class="text-light text-decoration-none" href="/about">About</a>
@@ -19,7 +19,7 @@
         </div>
 
         <div class="d-flex justify-content-center w-50">
-          <h1 class="navbar-brand header text-light" href="#">Dumagat</h1>
+          <h1 class="navbar-brand header text-light" href="/home">Dumagat</h1>
         </div>
 
         <div class="d-flex justify-content-end w-25 navcontent mt-3 ">
@@ -28,11 +28,10 @@
               <a class="text-light text-decoration-none pe-5" href="/gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="text-light text-decoration-none" href="#">Item</a>
+              <a class="text-light text-decoration-none" href="/language">Language</a>
             </li>
           </ul>
         </div>
-
       </div>
 
     </div>
