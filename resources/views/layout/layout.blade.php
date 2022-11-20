@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>{{ env('APP_NAME') }}</title>
     <link rel="stylesheet" href="\css\style.css">
@@ -12,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="d-flex" style="position: fixed; width:110%">
+<body style="background-color:rgb(0, 21, 9);">
+    <div class="d-flex" style="position: fixed; width:110%; z-index:-1">
         <video autoplay muted loop id="myVideo" class="bgvid">
             <source src="\assets\bg.mp4" type="video/mp4">
         </video>

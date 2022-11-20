@@ -39,6 +39,8 @@
     <iframe src="https://tagalog.pinoydictionary.com/list/a/" class="w-100 h-100"></iframe>
     <a class="text-dark text-decoration-none" style="font-size: 30px; position: absolute; bottom: 10px; right: 30px; z-index:9999;" href="#translator">Go to Translator</i></a>
 </div>
+
+
 <script>
     function translateButtonClick(){
         var text = document.getElementById("toBeTranslated");

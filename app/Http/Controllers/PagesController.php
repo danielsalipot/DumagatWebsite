@@ -25,4 +25,9 @@ class PagesController extends Controller
     {
         return view('pages.language');
     }
+
+    public function developers()
+    {
+        return view('pages.developers');
+    }
 }
